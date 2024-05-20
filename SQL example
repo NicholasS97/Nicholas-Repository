@@ -1,3 +1,5 @@
+--Selects students in the potions course that are not in Slytherin
+
 SELECT Person.last_name, Person.first_name
 FROM Person, Enrollment
 WHERE Enrollment.Course = 1 AND (Person.id = Enrollment.person) AND NOT Person.house = 4
