@@ -4,3 +4,4 @@ SELECT Person.last_name, Person.first_name
 FROM Person, Enrollment
 WHERE Enrollment.Course = 1 AND (Person.id = Enrollment.person) AND NOT Person.house = 4
 ORDER BY Person.last_name;
+console.Writeline("Hi it's Dariel")
